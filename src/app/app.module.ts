@@ -1,11 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { HttpClientModule } from '@angular/common/http'; // เพิ่มการ import นี้
+import { HttpClientModule } from '@angular/common/http';
+import { HomepageComponent } from './homepage/homepage.component'; // เพิ่มการ import นี้
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
